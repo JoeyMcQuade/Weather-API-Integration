@@ -17,3 +17,4 @@ def convert_kelvin_to_celsius(value_in_kelvin):
 
 if __name__ == "__main__":
     print(format_response(make_requests("Dubai")))
+
