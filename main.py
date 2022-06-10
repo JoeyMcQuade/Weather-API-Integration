@@ -15,7 +15,7 @@ def format_response(data):
 def convert_kelvin_to_celsius(value_in_kelvin):
     return str(value_in_kelvin - 273.15)[:5]
 
-def say_hello_to_rab():
+def say_hello_to_rab() -> str:
     return "Hello Rab"
 
 if __name__ == "__main__":
